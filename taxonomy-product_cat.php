@@ -30,6 +30,6 @@ if(get_field('categoria_zona', $term)){
     }
 
 }
-?>
 
+get_template_part('template-parts/componentes-contenido/componente', 'friendly-urls');
 get_footer();
